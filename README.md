@@ -25,7 +25,7 @@ where st_within(parkregister.wkb_geometry, f_udsatte_byomraader.wkb_geometry);
 ```
 Output: 8
 ```
-*By using the full dataset*
+* *By using the full dataset*
 
 ```
 Output: 44
@@ -39,7 +39,7 @@ where st_within(gadetraer.wkb_geometry, f_udsatte_byomraader.wkb_geometry);
 ```
 Output: 8
 ```
-*By using the full dataset*
+* *By using the full dataset*
 
 ```
 Output: 4866
@@ -57,7 +57,7 @@ where cykelstativ.vejkode = vejflade.vejkode and vejflade.vejid = tungvognsnet.v
 ```
 Output: 0
 ```
-*By using the full dataset*
+* *By using the full dataset*
 
 ```
 Output: 2998
