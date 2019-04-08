@@ -11,6 +11,8 @@ you are only able to get the max 50 features from dataset. If you remove maxFeat
 http://wfs-kbhkort.kk.dk/k101/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=k101:f_udsatte_byomraader&outputFormat=csv
 ```
 
+Some datasets we used are only with max 50 features, because it takes long time to convert a full csv file to sql file.
+
 ## Exercise 1
 
 Copenhagen has a strategy for improving the living conditions in socially exposed areas (udsatte områder). It a policy which both addresses the social aspects for the people living there, and the physical conditions.
