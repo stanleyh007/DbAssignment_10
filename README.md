@@ -25,6 +25,11 @@ where st_within(parkregister.wkb_geometry, f_udsatte_byomraader.wkb_geometry);
 ```
 Output: 8
 ```
+*By using the full dataset*
+
+```
+Output: 44
+```
 
 2. How many trees are located in exposed areas?
 ```MySQL
@@ -33,6 +38,11 @@ where st_within(gadetraer.wkb_geometry, f_udsatte_byomraader.wkb_geometry);
 ```
 ```
 Output: 8
+```
+*By using the full dataset*
+
+```
+Output: 4866
 ```
 
 ## Exercise 2
@@ -46,4 +56,9 @@ where cykelstativ.vejkode = vejflade.vejkode and vejflade.vejid = tungvognsnet.v
 ```
 ```
 Output: 0
+```
+*By using the full dataset*
+
+```
+Output: 2998
 ```
